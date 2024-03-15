@@ -1,0 +1,286 @@
+@font-face {
+    font-family: Boogalo ;
+    src: url(fonts/Boogaloo-Regular.ttf);
+}
+body{
+    font-family: Boogalo;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    background-image: url(https://burgerlab.com.pk/wp-content/uploads/2018/09/pattern.jpg);
+    background-repeat: repeat;
+    background-position: left top;
+    color: #532f17;
+}
+.nav-bar{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    /* border: 1px solid red; */
+    width: 100%;
+    justify-content: center;
+    
+
+}
+.nav-bar>img{
+    height: 100px;
+    width: 100px;
+
+}
+.nav-bar>ul{
+    display: flex;
+    /* border: 1px solid red; */
+    width: 600px;
+    justify-content: space-evenly;
+    font-size: 25px;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    
+}
+.nav-bar>ul>li{
+    list-style-type: none;
+}
+.nav-bar>ul>li>a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+ul>li>.home{
+    color: red;
+}
+.back-ground-image{
+    width: 100%;
+    height: 800px;
+    /* border: 1px solid red; */
+    background-image: url(images/download.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left top;
+    margin: 0px;
+    padding: 0px;
+}
+/* font-family: "Boogaloo",Arial,Tahoma,sans-serif;
+only screen and (min-width: 768px) and (max-width: 959px) */
+
+
+ /* menu started  */
+ .potato-container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+ }
+.potato-burns{
+    height: 570px;
+    width: 570px;
+    margin: 37px;
+    position: relative;
+    left: 37px;
+    border: 10px solid white;
+}
+/* .menu-font{
+    color: #532f17;
+    position: relative;
+    left: 50px;
+    width: 384px;
+    border: 5px solid black;
+    font-weight: bold;
+    font-size: 31px;
+}
+.menu-font2{
+    font-size: 44px;
+    line-height: 51px;
+} */
+.potato-font{
+    /* color:#532f17; */
+    font-size: 31px;
+    line-height: 39px;
+
+}
+h1{
+    font-size: 44px;
+    line-height: 51px;
+    /* color:#532f17; */
+
+}
+h3{
+    font-size: 24px;
+    line-height: 29px;
+    /* color: #532f17; */
+}
+p{
+    font-size: 130%;
+    /* color: #532f17; */
+}
+.mainmenu-heading{
+    font-size: 52px;
+    line-height: 51px;
+    /* color:#532f17; */
+    text-align: center;
+    
+}
+.menu-name{
+    font-weight: 700;
+    font-size: 130%;
+}
+.menu-name2{
+    color: #e40700;
+    font-weight: 700;
+    font-size: 130%;
+
+}
+.menu-name3{
+    font-size: 120%;
+}
+.main-menu{
+    display: flex;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-top: 55px;
+}
+.main-menu1{
+    width: 33.333%;
+    text-align: center;
+}
+.main-menu-image{
+    width: 100%;
+    height: auto;
+}
+.main-menu-one{
+    position: relative;
+    top: -80px;
+}
+.main-menu-two{
+    position: relative;
+    top: 40px;
+}
+.section{
+    background-image: url(images/section.jpg);
+    height: auto;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 50px;
+    height: auto;
+}
+.heading-footer{
+    color: white;
+    font-weight: 700;
+    font-size: 130%;
+    text-align: center;
+
+}
+.para-footer{
+    font-size: 110%;  
+    color: white;  
+    text-align: center; 
+       
+}
+.container-footer{
+    width: 29.333%;
+    
+    
+    
+}
+.image-footer{
+width: 145px;
+display: block;
+margin: auto;
+}
+.last-footer-container{
+    width: 100%;
+    height: 400px;
+    background-color: #532f17;
+    position: relative;
+    top: -116px;
+}
+.facebook-icon{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.facebook-icon2>img{
+    width: 32px;
+    height: 32px;
+}
+.section2{
+    position: relative;
+    top: -102px;
+    height: 100px;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:600px)
+{
+    .nav-bar{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0px;
+        background-color: black;
+        width: 100%;
+    }
+    .nav-bar>ul{
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+        
+    }
+
+    .nav-bar>img{
+        order: -1;   
+    }
+    .back-ground-image{
+        background-size: cover;
+
+    }
+    .potato-container{
+        flex-direction: column;
+        /* border: 1px solid red; */
+        align-items: center;
+        justify-content: center;
+    }
+    .potato-burns{
+        height: 470px;
+    width: 470px;
+    left: -7px;
+    
+    }
+    .main-menu{
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+        /* border: 1px solid red; */
+    }
+    .main-menu1{
+        width: 100%;
+
+    }
+    .main-menu-one{
+        top: 0;
+    }
+    .section{
+        flex-direction: column;
+        border: 1px solid red;
+        align-items: center;
+    }
+    
+    }
